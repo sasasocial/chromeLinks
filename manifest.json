@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Links",
+  "description": "A basic extension to manage bookmarks.",
+  "version": "1.0",
+  "permissions": ["bookmarks", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Chrome Links"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
